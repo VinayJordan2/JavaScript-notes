@@ -1,0 +1,20 @@
+Conditionals (Steele said it is the MOST IMPORTANT concept in programming).
+The three 'keywords' below are used in conjunction with Boolean.
+> If
+> Else If (it follows after an 'If statement')
+> Else (Else doesn't take an expression in parenthesis) (it will only be run as a last option)
+
+answer to solution of lecture no 128 (enter age, square root etc)
+https://www.sitepoint.com/community/t/perfect-square-in-javascript/271583
+
+Sunday 13-Oct-19 10.23AM
+Converting Strings to Number in Javascript: Pitfalls
+https://coderwall.com/p/5tlhmw/converting-strings-to-number-in-javascript-pitfalls
+
+Math  built-in objects in Javascript
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math
+
+Lecture 130. Guess a number
+
+> can use 'typeof' to find data type of a variable
+** all my JS codes are in GitHub https://github.com/VinayJordan2/web-development-bootcamp-codes **
