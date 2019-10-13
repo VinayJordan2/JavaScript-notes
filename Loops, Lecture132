@@ -1,0 +1,22 @@
+Sunday 13-Oct-19 - 1.22PM
+
+DRY : Don't Repeat Yourself
+We want to keep our code as DRY as possible. It saves us a lot of time and makes our code cleaner.
+
+While Loops: Repeat code WHILE a condition is true
+while(someCondition) {
+    //run some code
+}
+
+They are very similar to if statements, except they repeat a given code block instead of just running it once:
+
+>Printing each character in a string..
+//string we're looping over:
+var str = "hello";
+//first character is at index 0
+var count = 0;
+while (count < str.length) {
+console.log(str[count]);
+count++;
+}
+
