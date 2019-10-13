@@ -1,0 +1,36 @@
+> Everything starts with the idea that a statement is either True or False
+> Then we can combine those initial statements to create more complex statements that also evaluate to True or False
+
+> mostly Operators (>, <, ===, !==) are used for Boolean Logic
+
+(FYi NaN means Not a Number)
+
+-> Comparison Operators are: (assuming the value of "x = 5")
+> Greater than x > 10 False 
+>= Greater than or equal to x >= 5 True 
+< Less than x < -50 False 
+<= Less than or equal to x <=100 True 
+== Equal to x == '5' True (remember of type coercion) 
+!= Not equal to x != 'b' True 
+=== Equal value and type x === '5' False 
+!== Not equal value or type x !== '5' True 
+
+> Logical Operators are:
+&& -> AND
+|| -> OR
+! -> NOT
+
+For example, where "x = 5", and "y = 9", you would receive the following results: 
+&& AND x < 10 && x !==5 False 
+|| OR y > 9 || x === 5 True  (remember short circuit in JS)
+! NOT !(x === y) True 
+
+Truthy and Falsy Values
+> Values that aren't actually true or false, are still inherently "truthy" or "falsey" when evaluated in a boolean context.
+> Thumb Rule is that below values are Falsy Values and Everything Else is Truthy.
+~ false
+~ 0
+~ ""
+~ null
+~ undefined
+~ NaN
