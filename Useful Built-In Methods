@@ -1,0 +1,32 @@
+11.Oct.2019 - 4.21AM
+> Useful Built-In Methods:
+
+(just FYI '//' is used for comments in JS and 'clear()' will clear the JS console)
+//alert -> This one pops up an alert for the user
+alert("Hello there!!");
+alert(22*2);
+
+//console.log -> This is just for us, not the user
+console.log("hello from the console!")
+
+//prompt -> It lets us get input from the user
+prompt("what is your name?")
+
+ex: 
+<!DOCTYPE html>
+<html>
+<head>
+<title>Script Demo</title>
+<script src="script.js" type="text/javascript"></script>
+</head>
+<body>
+<h1>Including JS Files</h1>
+
+</body>
+</html>
+
+script.js:
+var userName = prompt("What is your name?");
+alert ("Nice to meet you, " + userName);
+console.log("Also great to meet you, " + userName);
+
