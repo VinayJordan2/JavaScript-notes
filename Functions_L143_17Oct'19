@@ -1,0 +1,16 @@
+#Functions. (The Most important topic in JavaScript)
+
+> Functions let us wrap bits of code up into REUSABLE packages. They are one of the building blocks of JS.
+
+1. Declare a function first:
+function doSomething() {
+  console.log("HELLO WORLD");
+}
+
+2. Then call it:
+doSomething();
+doSomething();
+doSomething();
+doSomething();
+
+> Functions help us keep our code 'DRY' (ex: Twinkle Twinkle Little star song code)
