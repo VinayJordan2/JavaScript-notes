@@ -1,0 +1,36 @@
+Arguments:
+> Often we want to write functions that take inputs.
+funtion square(num) {
+  console.log(num * num);
+}
+
+> Now when we call 'square', we need to pass in a value.
+square(10); //prints 100
+square(3); //prints 9
+square(4); //prints 16
+
+example:
+function sayHello(name) {
+    console.log("Hello there " + name + "!");
+}
+
+sayHello("Rusty");
+output: Hello there Rusty!
+
+> Functions can have as many arguments as needed
+function area(length, width) {
+  console.log(length * width);
+}
+area(9, 12); //18
+
+function greet(person1, person2, person3) {
+  console.log("hi " + person1);
+  console.log("hi " + person2);
+  console.log("hi " + person3);
+}
+greet("Harry", "Ron", "Hermione");
+
+** The ability of the funtions to take in arguments is one of the most important things
+** the strings given inside arguments while defining the function is called 'place holders'
+** having functions is not just to not have a repeating code but also to be able to change the output based on the input
+   and arguments let us do that
