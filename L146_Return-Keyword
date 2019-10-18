@@ -1,0 +1,58 @@
+The Return Keyword.
+> Often we want a function to send back an output value.
+input -> Function -> Output
+
+> function square(x) {
+
+    console.log(x*x);
+
+}
+
+<- undefined
+
+> 
+square(4);
+  16
+
+<- undefined
+
+
+> "4 squared is: " + square(4);
+  16
+
+<- "4 squared is: undefined"
+
+
+> function square(x) {
+
+    return x * x;
+ 
+}
+<- 
+undefined
+
+> 
+square(4);
+<- 16
+
+
+> console.log(4);
+  4
+<- undefined
+
+
+> "4 squared is: " + square(4);
+
+<- "4 squared is: 16"
+
+
+> var result = square(104);
+
+<- undefined
+
+
+> result;
+<- 
+10816
+
+** Every function returns a value, and if we don't explicitly assign a return, it will just return '<- undefined'
