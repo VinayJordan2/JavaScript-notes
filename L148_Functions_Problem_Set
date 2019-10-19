@@ -1,0 +1,18 @@
+> isEven()
+1# Write a function 'isEven()' which takes a single numeric argument and returns true if the number is even, and false otherwise.
+> isEven(4);   //true
+> isEven(21);  //false
+
+function isEven(x) {
+    if (x % 2 === 0) { 
+        return ("true");
+    }
+    else {
+        return ("false");
+    }
+}
+
+> factorial()
+2# write a function 'factorial()' which takes a single numeric argument and returns the factorial of that number.
+ex: 4! is 4 x 3 x 2 x 1
+    0! is 1
