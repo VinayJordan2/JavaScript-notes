@@ -56,3 +56,46 @@ square(4);
 10816
 
 ** Every function returns a value, and if we don't explicitly assign a return, it will just return '<- undefined'
+
+19_Oct_2019, 6.39PM
+
+The Return Keyword:
+> we use the 'return' keyword to output a value from a function
+
+//this function capitalizes the first char in a string:
+
+function capitalize(str) {
+	return str.charAt(0).toUpperCase() + str.slice(1);
+}
+
+var city = "paris";		 //"paris"
+var capital = capitalize(city);  //"Paris"
+
+//we can capture the returned value in a variable
+
+> The 'return' keyword stops execution of a function
+function capitalize(str) {
+    if(typeof str === "number") {
+       return "that's not a string!"
+     }
+     return str.charAt(0).toUpperCase() + str.slice(1);
+}
+
+var city = "paris";              //"paris"
+var capital = capitalize(city);  //"Paris
+
+var num = 37;
+var capital = capitalize(num); //"that's not a string!"
+
+> Another Syntax
+> Function Declaration vs. Function Expression
+//function declaration
+function capitalize(str) {
+    return str.charAt(0).toUpperCase() + str.slice(1);
+}
+
+//function expression
+var capitalize = function(str) {
+    return str.charAt(0).toUpperCase() + str.slice(1);
+}
+
