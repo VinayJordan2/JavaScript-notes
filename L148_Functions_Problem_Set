@@ -54,3 +54,12 @@ function factorial(num) {
 function kebabToSnake(str) {
     return str.replace(/-/g, "_");
 }
+
+** the way Steele wrote is:
+function kebabToSnake(str) {
+    //replace all '-' with "_"'s
+    var newStr = str.replace(/-/g , "_");
+   //we used another varialble newStr because the replace() function just converts the text but it doesn't store the value
+   //return str
+       return newStr;
+}
