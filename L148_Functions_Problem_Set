@@ -12,6 +12,11 @@ function isEven(x) {
     }
 }
 
+**but we can write it this way (the way Steele wrote)
+function isEven(num) {
+    return num % 2 === 0;
+}
+
 > factorial()
 2# write a function 'factorial()' which takes a single numeric argument and returns the factorial of that number.
 ex: 4! is 4 x 3 x 2 x 1
@@ -28,6 +33,18 @@ function factorial(x)
          
 }
 
+** the way Steele wrote is:
+function factorial(num) {
+    //define a result variable
+    var result = 1;
+   //calculate factorial and store value in result
+    for (var i = 2; i <= num; i++) {
+        //result = result * i; 
+        result *= i;
+      }
+        //return the result variable
+       return result;
+}
 
 > kebabToSnake()
 3# write a function 'kebabToSnake()' which takes a single kebab-cased string argument and returns the snake_cased version.
