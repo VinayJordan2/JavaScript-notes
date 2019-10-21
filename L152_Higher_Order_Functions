@@ -1,0 +1,19 @@
+Higher Order Functions are used to call another function in a function.
+
+> Below is one example of Higher Order Functions.
+
+setInterval(anotherFunc, interval);
+
+function sing() {
+    console.log("twinkle twinkle...");
+    console.log("how I wonder...");
+}
+
+setInterval(sing, 1000);
+
+> The below function is used for writing a temporary (local)function within a function
+
+setInterval(function() {
+   console.log("I am an anonymous function!");
+	console.log("THIS IS AWESOME!");
+}, 2000);
