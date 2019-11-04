@@ -1,0 +1,47 @@
+** write a code
+movie should have these properties
+> title -> string
+> rating -> number
+> hasWatched -> Boolean
+
+print out:
+
+for true -> You have watched "In Bruges" - 5 stars
+for false -> You have not seen "Frozen" - 4.5 stars
+
+//data 
+var movieDB = [ 
+{
+title: "Gang Leader",
+rating: 4.5,
+hasWatched: true
+}, 
+{
+title: "Saaho",
+rating: 3.2,
+hasWatched: false
+},
+{
+title: "Bandobasth",
+rating: 3.8,
+hasWatched: true
+}, 
+{
+title: "Syera",
+rating: 4.3,
+hasWatched: false
+} ];
+
+
+//logic
+movieDB.forEach(function(movie){
+var result = "You have ";
+if(movie.hasWatched){
+result += "watched ";
+} else { 
+result += "not seen ";
+}
+result += "\"" + movie.title + "\"- ";
+result += movie.rating + " stars";
+console.log(result)
+});
