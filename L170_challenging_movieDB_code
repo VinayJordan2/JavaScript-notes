@@ -45,3 +45,21 @@ result += "\"" + movie.title + "\"- ";
 result += movie.rating + " stars";
 console.log(result)
 });
+
+//Colt then further simplified it by writing another function to make the Logic part look clean
+function buildString(movie) {
+var result = "You have ";
+if(movie.hasWatched){
+result += "watched ";
+} else { 
+result += "not seen ";
+}
+result += "\"" + movie.title + "\"- ";
+result += movie.rating + " stars";
+return result;
+}
+
+//calling it
+movieDB.forEach(function(movie){
+ console.log(buildString(movie));
+});
